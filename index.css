@@ -1,0 +1,56 @@
+h3{
+    text-align: center;
+   
+}
+.srvybox{
+    width: 100%;
+  
+    padding-left: 5px;;
+
+}
+.main {
+    display: flex;
+    padding: 5px;
+    text-align: left;
+    
+}
+.checked {
+    color: orange;
+    padding: 6px;
+}
+
+.block {
+    display: block;
+    padding:3px;
+    margin: 2px;
+    margin-right: 60px;
+}
+
+input{
+    float:left;
+    
+    margin-bottom:10px; 
+    }
+
+    .main1{
+        display: flex;
+        padding: 5px;
+        text-align: left;
+        
+    }
+    table {
+        border-collapse: collapse;
+        border-spacing: 0;
+        width: 100%;
+        
+      }
+      
+      th,td {
+        text-align: left;
+        padding:16px;
+      }
+    
+      tr:nth-child(even) {
+        background-color: #f2f2f2;
+      }
+      

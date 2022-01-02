@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Survey Form</title>
+</head>
+<body>
+    <div class="srvybox">
+         <!-- Heading -->
+        <div class="heading">
+            <h3><u>Survey Form</u></h3>
+        </div>
+<!----------------------------->
+        <form action="">
+            
+            <!-- Name -->
+            <label for="fname"><b> Name  </b><b style="color:red;">*</b></label>
+                <div class="main">
+                
+                    <div class="first">
+                        <input class="block" name="firstName" placeholder="First name">
+                        
+                    </div>
+                
+                    <div class="last">
+                        <input class="block" name="lastName" placeholder="Last name">
+                        
+                    </div>
+                 </div>
+
+            <!-- Email address -->
+                 <label for="fname"><b>Email  </b><b style="color:red;">*</b></label>
+            <div class="main">
+                <input type="text" required="">
+             </div><br><br>
+
+                 <!--Star Rating -->
+                 <label for="star"><b>Your Experience  </b><b style="color:red;">*</b></label>
+                 <div class=main>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span><br>
+                
+                </div>
+                <p>Overall how would you rate experience your with us?</p>
+
+
+
+
+                             <!-- Table:1 with radio button -->
+             <label for="chkbx"><b> How satisfied are you with </b><b style="color:red;">*</b></label>
+        <div class="main1">
+            
+            <table>
+                <tr>
+                    <th></th>
+                    <th>Very Unsatisfied</th>
+                    <th>Unsatisfied</th>
+                    <th>Neutral</th>
+                    <th>Satisfied</th>
+                    <th>Very Satisfied</th>
+              </tr>
+                <tr>
+                    <td>Purchase</td>
+                    <td><input class="radio-input" type="radio"  name="radiobutton" ></td>
+                    <td><input class="radio-input" type="radio"  name="radiobutton" ></td>
+                    <td><input class="radio-input" type="radio"  name="radiobutton" ></td>
+                    <td><input class="radio-input" type="radio"  name="radiobutton" ></td>
+                    <td><input class="radio-input" type="radio"  name="radiobutton" ></td>
+                </tr>
+                <tr>
+                    <td>Service</td>
+                    <td><input class="radio-input" type="radio"  name="radiobutton" ></td>
+                    <td><input class="radio-input" type="radio"  name="radiobutton" ></td>
+                    <td><input class="radio-input" type="radio"  name="radiobutton" ></td>
+                    <td><input class="radio-input" type="radio"  name="radiobutton" ></td>
+                    <td><input class="radio-input" type="radio"  name="radiobutton" ></td>
+                </tr>
+                <tr>
+                    <td>Company Overall</td>
+                    <td><input class="radio-input" type="radio"  name="radiobutton" ></td>
+                    <td><input class="radio-input" type="radio"  name="radiobutton" ></td>
+                    <td><input class="radio-input" type="radio"  name="radiobutton" ></td>
+                    <td><input class="radio-input" type="radio"  name="radiobutton" ></td>
+                    <td><input class="radio-input" type="radio"  name="radiobutton" ></td>
+                </tr>
+    </table>
+</div><br><br>
+
+
+                             <!-- Table:2 with radio button -->
+             <label for="chkbx"><b> How likely are you to </b><b style="color:red;">*</b></label>
+             <div class="main1">
+                 
+                 <table>
+                     <tr>
+                         <th></th>
+                         <th>Very Unlikely</th>
+                         <th>Unlikely</th>
+                         <th>Neutral</th>
+                         <th>Likely</th>
+                         <th>Very Likely</th>
+                   </tr>
+                     <tr>
+                         <td>Buy from us again</td>
+                         <td><input class="radio-input" type="radio"  name="radiobutton" ></td>
+                         <td><input class="radio-input" type="radio"  name="radiobutton" ></td>
+                         <td><input class="radio-input" type="radio"  name="radiobutton" ></td>
+                         <td><input class="radio-input" type="radio"  name="radiobutton" ></td>
+                         <td><input class="radio-input" type="radio"  name="radiobutton" ></td>
+                     </tr>
+                     <tr>
+                         <td>Recommend our product to others</td>
+                         <td><input class="radio-input" type="radio"  name="radiobutton" ></td>
+                         <td><input class="radio-input" type="radio"  name="radiobutton" ></td>
+                         <td><input class="radio-input" type="radio"  name="radiobutton" ></td>
+                         <td><input class="radio-input" type="radio"  name="radiobutton" ></td>
+                         <td><input class="radio-input" type="radio"  name="radiobutton" ></td>
+                     </tr>
+                     <tr>
+                         <td>Recommend our company to others</td>
+                         <td><input class="radio-input" type="radio"  name="radiobutton" ></td>
+                         <td><input class="radio-input" type="radio"  name="radiobutton" ></td>
+                         <td><input class="radio-input" type="radio"  name="radiobutton" ></td>
+                         <td><input class="radio-input" type="radio"  name="radiobutton" ></td>
+                         <td><input class="radio-input" type="radio"  name="radiobutton" ></td>
+                     </tr>
+         </table>
+     </div><br><br>
+     
+
+           <!-- comment box -->
+             <label for="fname"><b>Additional comments or suggestions</label>
+             <div class="main">
+                <textarea id="msgarea" name="message" rows="10" cols="250"></textarea><br><br>
+            </div><br><br>
+
+
+             <!-- Submit button -->
+            <div class="button">
+                <button type="submit"  name="submit" id="submit">Submit</button>
+            </div><br>
+            <br>
+
+    </div>    
+</body>
+
+</html>
